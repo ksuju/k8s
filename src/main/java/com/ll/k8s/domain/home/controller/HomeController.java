@@ -29,7 +29,7 @@ public class HomeController {
         InetAddress localHost = InetAddress.getLocalHost();
         // getHostName 메소드를 호출하여 호스트 이름을 얻습니다.
         String hostname = localHost.getHostName();
-        return "홈, hostname : " + hostname;
+        return "(자동)홈, hostname : " + hostname;
     }
     @GetMapping("/jwtSecretKey")
     @ResponseBody
