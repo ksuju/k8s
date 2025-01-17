@@ -7,7 +7,6 @@ on:
       - 'build.gradle'
       - 'Dockerfile'
       - 'readme.md'
-      - 'infraScript/**'
     branches:
       - 'main'
 jobs:
