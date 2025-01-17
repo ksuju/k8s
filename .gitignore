@@ -37,6 +37,3 @@ out/
 .vscode/
 
 application-secret.yml
-application.yml
-application-prod.yml
-application-test.yml
